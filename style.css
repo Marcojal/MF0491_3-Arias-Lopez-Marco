@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+
+:root {
+ --deskpot-width: 1440px;
+ --max-width: 370px;
+}
+
+* {
+ box-sizing: border-box;
+ margin: 0;
+}
+
+.body {
+ height: 100vh;
+ width: 100vw;
+ font-family: 'Oxygen', sans-serif;
+ font-size: 12px;
+}
+
+.form {
+ display: flex;
+ flex-direction: column;
+}
+
+h1 {
+ font-family: 'Roboto', sans-serif;
+ font-weight: bold;
+ font-size: 2em;
+ text-transform: uppercase;
+ margin-bottom: 1em;
+}
+
+legend {
+ text-decoration: underline;
+ font-size: 1.5em;
+}
+
+fieldset {
+ display: flex;
+ flex-direction: column;
+ border-color: transparent;
+}
+
+::placeholder { color: rgb(163, 157, 157); }
+
+input, textarea {
+ max-width: 40%;
+}
+
+
+.contacto {
+ display: grid(repeat(1fr));
+}
+
+.ejpanol {
+ display: grid(repeat(1fr));
+}
+
+span {
+ color: red;
+}
+
+#intereses {
+ width: 7em;
+}
+
+#enviar {
+ background-color: rgb(169, 160, 160);
+ color: white;
+ text-transform: uppercase;
+ border: none;
+ width: 10%;
+ height: 2em;
+ position: relative;
+ bottom: 10%;
+ left: 30%;
+}

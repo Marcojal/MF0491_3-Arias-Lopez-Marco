@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
-
 :root {
  --deskpot-width: 1440px;
  --max-width: 370px;
@@ -12,7 +11,6 @@
 }
 
 .body {
- height: 100vh;
  width: 100vw;
  font-family: 'Oxygen', sans-serif;
  font-size: 12px;
